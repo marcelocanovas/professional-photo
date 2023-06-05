@@ -29,14 +29,14 @@ async function postImageToApi(formData: FormData) {
   });
 
   if (!response.ok) {
-    throw new Error(`API request failed with status ${response.status}`);
+    throw new Error(`Solicitação de API falhou com status ${response.status}`);
   }
 
   const jsonResponse = await response.json();
   const remixId = jsonResponse.id;
 
   if (!remixId) {
-    throw new Error("Remix ID not found in API response");
+    throw new Error("ID do remix não encontrado na resposta da API");
   }
 
   return remixId;
@@ -51,14 +51,14 @@ export async function POST(request: Request) {
 
   if (!image) {
     return NextResponse.json(
-      { error: "No image found in request" },
+      { error: "Nenhuma imagem encontrada na solicitação" },
       { status: 400 }
     );
   }
 
   if (!prompt) {
     return NextResponse.json(
-      { error: "No prompt found in request" },
+      { error: "Nenhum prompt encontrado na solicitação" },
       { status: 400 }
     );
   }
@@ -70,7 +70,7 @@ export async function POST(request: Request) {
   } catch (error: unknown) {
     if (error instanceof Error) {
       console.error(
-        "Error while making request to external API:",
+        "Erro ao fazer solicitação para API externa:",
         error.message
       );
       return NextResponse.json({ error: error.message }, { status: 500 });

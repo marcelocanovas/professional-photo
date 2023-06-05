@@ -5,8 +5,8 @@ import { Providers } from "./providers";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Vendah | Sua foto profissional",
-  description: "Transforme sua foto comum em uma foto vendedora",
+  title: "Vendah | Minha Foto Profissional",
+  description: "Transforme sua foto comum em uma Foto Profissional",
 };
 
 export default function RootLayout({

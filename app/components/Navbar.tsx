@@ -23,20 +23,20 @@ export default function Navbar() {
       userSelect={"none"}
     >
       <Heading size={"md"} as={"a"} href={"/"}>
-        Remix My Face
+        Minha Foto Profissional
       </Heading>
       <Spacer />
       <Button
         as="a"
-        href={"https://github.com/leap-api/remix-my-face"}
+        href={"https://vendah.com.br"}
         target={"_blank"}
         size={"xs"}
         leftIcon={<FaGithub />}
       >
-        Fork on GitHub
+        Vendah
       </Button>
       <IconButton
-        aria-label={"Toggle Dark Mode"}
+        aria-label={"Modo Escuro"}
         icon={colorMode === "dark" ? <FaSun /> : <FaMoon />}
         onClick={toggleColorMode}
         size={"sm"}

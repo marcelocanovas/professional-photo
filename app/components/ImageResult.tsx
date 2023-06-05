@@ -34,7 +34,7 @@ export default function ImageResult({ src }: ImageResultProps) {
 
   // Message and encodedMessage used to share on social media platforms
   const message =
-    "Check out this cool website by @leap_api where you can upload a selfie and create custom avatars https://remixmyface.com";
+    "Confira a minha foto que criei com a ajuda da Vendah";
   const encodedMessage = encodeURIComponent(message);
   const downloadFileName = "custom_avatar.png";
 
@@ -80,35 +80,35 @@ export default function ImageResult({ src }: ImageResultProps) {
               <HStack>
                 {/* Download button */}
                 <Button as="a" href={src} download={downloadFileName}>
-                  Download
+                  Baixar
                 </Button>
                 {/* Social media buttons */}
                 <IconButton
                   as={Link}
                   href={twitterShareUrl}
                   target="_blank"
-                  aria-label="Share on Twitter"
+                  aria-label="Compartilhar no Twitter"
                   icon={<FaTwitter />}
                 />
                 <IconButton
                   as={Link}
                   href={facebookShareUrl}
                   target="_blank"
-                  aria-label="Share on Facebook"
+                  aria-label="Compartilhar no Facebook"
                   icon={<FaFacebook />}
                 />
                 <IconButton
                   as={Link}
                   href={linkedinShareUrl}
                   target="_blank"
-                  aria-label="Share on LinkedIn"
+                  aria-label="Compartilhar no LinkedIn"
                   icon={<FaLinkedin />}
                 />
                 <IconButton
                   as={Link}
                   href={pinterestShareUrl}
                   target="_blank"
-                  aria-label="Share on Pinterest"
+                  aria-label="Compartilhar no Pinterest"
                   icon={<FaPinterest />}
                 />
               </HStack>

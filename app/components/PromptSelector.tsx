@@ -57,7 +57,7 @@ export default function PromptSelector({
         variant={"outline"}
         w={"full"}
       >
-        {selectedPrompt.key || "Select Style"}
+        {selectedPrompt.key || "Escolha o Estilo"}
       </MenuButton>
 
       {/* MenuList contains MenuItem(s) with available art styles */}

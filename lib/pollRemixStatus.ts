@@ -45,11 +45,11 @@ async function checkStatus(
     }
     // Throw an error if the received status is unexpected
     else {
-      throw new Error("Unexpected status value");
+      throw new Error("Valor de status inesperado");
     }
   } catch (error: unknown) {
     if (error instanceof Error) {
-      console.error("Error while polling for remix status:", error.message);
+      console.error("Erro ao consultar o status do remix:", error.message);
     }
   }
 }

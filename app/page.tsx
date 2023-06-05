@@ -91,10 +91,10 @@ export default function Home() {
               <VStack>
                 <Stack gap={0}>
                   <Heading textAlign={"center"} lineHeight={1}>
-                    Take a selfie,
+                    Envie sua imagem,
                   </Heading>
                   <Heading textAlign={"center"} lineHeight={1}>
-                    get a custom avatar using AI.
+                    tenha a sua foto profissional.
                   </Heading>
                 </Stack>
                 <Image
@@ -133,7 +133,7 @@ export default function Home() {
           {/* Rendering loading text if any */}
           {(loading || polling) && (
             <Text fontSize={"0.7rem"}>
-              Generating can take about 30 seconds. Hang tight!
+              O processo pode demorar até 30 segundos. Aguarde!
             </Text>
           )}
           {/* Rendering list of generated images */}

@@ -43,7 +43,7 @@ const ImageSelector = ({ image, setImage }: ImageSelectorProps) => {
           size={"sm"}
           w={"full"}
         >
-          Start Over
+          Começar de novo
         </Button>
         <Image
           src={URL.createObjectURL(image)}
@@ -74,7 +74,7 @@ const ImageSelector = ({ image, setImage }: ImageSelectorProps) => {
         onClick={handleButtonClick}
         w={"full"}
       >
-        Upload or Take Selfie
+        Carregar Foto ou Tirar Selfie
       </Button>
     </FormControl>
   );

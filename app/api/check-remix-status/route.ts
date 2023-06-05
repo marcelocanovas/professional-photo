@@ -18,7 +18,7 @@ export async function GET(request: Request) {
 
     if (!response.ok) {
       return NextResponse.json(
-        { error: `Request failed with status ${response.status}` },
+        { error: `Solicitação falhou com status ${response.status}` },
         { status: response.status }
       );
     }
@@ -27,7 +27,7 @@ export async function GET(request: Request) {
     return NextResponse.json(jsonResponse);
   } catch (error: unknown) {
     if (error instanceof Error) {
-      console.error("Error while checking the remix status:", error.message);
+      console.error("Erro ao verificar o status do remix:", error.message);
       return NextResponse.json({ error: error.message }, { status: 500 });
     }
   }
