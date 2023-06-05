@@ -6,7 +6,7 @@ import {
   Spacer,
   useColorMode,
 } from "@chakra-ui/react";
-import { FaGithub, FaMoon, FaSun } from "react-icons/fa";
+import { FaMoon, FaSun } from "react-icons/fa";
 
 export default function Navbar() {
   const { colorMode, toggleColorMode } = useColorMode();
