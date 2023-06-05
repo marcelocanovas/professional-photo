@@ -4,7 +4,7 @@ import { useEffect } from "react";
 
 export const prompts = {
   "Cyberpunk": "8k portrait in cyberpunk art style",
-  "Profissional": "8k linkedin professional profile photo of @me in a suit with studio lighting, bokeh, corporate portrait headshot photograph best corporate photography photo winner, meticulous detail, hyperrealistic, centered uncropped symmetrical beautiful"
+  "Profissional": "8k linkedin professional profile photo of @me in a suit with studio lighting, bokeh, corporate portrait headshot photograph best corporate photography photo winner, meticulous detail, hyperrealistic, centered uncropped symmetrical beautiful",
   "Neon Noir": "8k portrait in neon noir art style",
   "Starry Night": "8k portrait in Vincent van Gogh's Starry Night-inspired style",
   "Paper Cut-Out": "8k portrait in paper cut-out art style",
