@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <Container maxW={"container.sm"}>
       <VStack bg={"blackAlpha.100"} p={8} w={"full"} rounded={"md"} mb={8}>
-        <Image src="public/vendah-logo.svg" alt="Logo da Vendah" />
+        <Image src="/vendah-logo.svg" alt="Logo da Vendah" />
         <Text
           as="a"
           href={"https://vendah.com.br"}
