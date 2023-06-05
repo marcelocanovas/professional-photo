@@ -91,10 +91,10 @@ export default function Home() {
               <VStack>
                 <Stack gap={0}>
                   <Heading textAlign={"center"} lineHeight={1}>
-                    Envie sua imagem,
+                    Tenha sua foto profissional
                   </Heading>
                   <Heading textAlign={"center"} lineHeight={1}>
-                    tenha a sua foto profissional.
+                    e Vendah muito mais!
                   </Heading>
                 </Stack>
                 <Image
