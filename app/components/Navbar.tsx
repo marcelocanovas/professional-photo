@@ -26,15 +26,6 @@ export default function Navbar() {
         Minha Foto Profissional
       </Heading>
       <Spacer />
-      <Button
-        as="a"
-        href={"https://vendah.com.br"}
-        target={"_blank"}
-        size={"xs"}
-        leftIcon={<FaGithub />}
-      >
-        Vendah
-      </Button>
       <IconButton
         aria-label={"Modo Escuro"}
         icon={colorMode === "dark" ? <FaSun /> : <FaMoon />}
