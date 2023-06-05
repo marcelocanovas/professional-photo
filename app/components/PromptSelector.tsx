@@ -3,23 +3,23 @@ import { Button, Menu, MenuButton, MenuItem, MenuList } from "@chakra-ui/react";
 import { useEffect } from "react";
 
 export const prompts = {
-  Cyberpunk: "8k portrait in cyberpunk art style",
+  "Cyberpunk": "8k portrait in cyberpunk art style",
+  "Profissional": "8k linkedin professional profile photo of @me in a suit with studio lighting, bokeh, corporate portrait headshot photograph best corporate photography photo winner, meticulous detail, hyperrealistic, centered uncropped symmetrical beautiful"
   "Neon Noir": "8k portrait in neon noir art style",
-  "Starry Night":
-    "8k portrait in Vincent van Gogh's Starry Night-inspired style",
+  "Starry Night": "8k portrait in Vincent van Gogh's Starry Night-inspired style",
   "Paper Cut-Out": "8k portrait in paper cut-out art style",
   "Glitch Art": "8k portrait in glitch art style",
   "Low Poly": "8k portrait in low poly art style",
   "Lego Style": "8k portrait in Lego-inspired art style",
   "Juxtaposed Collage": "8k portrait in juxtaposed collage art style",
-  Silhouette: "8k portrait in silhouette art style",
-  Origami: "8k portrait in origami-inspired art style",
-  Watercolor: "8k portrait in watercolor art style",
+  "Silhouette": "8k portrait in silhouette art style",
+  "Origami": "8k portrait in origami-inspired art style",
+  "Watercolor": "8k portrait in watercolor art style",
   "Floral Pattern": "8k portrait in floral pattern art style",
-  Anime: "8k portrait in anime art style",
+  "Anime": "8k portrait in anime art style",
   "Fairy Tale": "8k portrait in fairy tale-inspired art style",
-  Kawaii: "8k portrait in kawaii art style",
-  Disney: "8k portrait in modern disney style",
+  "Kawaii": "8k portrait in kawaii art style",
+  "Disney": "8k portrait in modern disney style",
   "Marvel Comic": "8k portrait in marvel comic art style",
 };
 

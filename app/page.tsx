@@ -32,8 +32,8 @@ export default function Home() {
   const [polling, setPolling] = useState(false);
   const [results, setResults] = useState<RemixImage[]>([]);
   const [prompt, setPrompt] = useState({
-    key: "Disney",
-    value: "8k portrait in modern disney style",
+    key: "Professional",
+    value: "8k linkedin professional profile photo of @me in a suit with studio lighting, bokeh, corporate portrait headshot photograph best corporate photography photo winner, meticulous detail, hyperrealistic, centered uncropped symmetrical beautiful",
   });
 
   // Reset results if image is removed

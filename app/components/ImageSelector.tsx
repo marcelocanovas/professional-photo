@@ -43,7 +43,7 @@ const ImageSelector = ({ image, setImage }: ImageSelectorProps) => {
           size={"sm"}
           w={"full"}
         >
-          Começar de novo
+          Recomeçar
         </Button>
         <Image
           src={URL.createObjectURL(image)}
