@@ -1,6 +1,6 @@
 "use client";
 
-import { Button, Container, Text, VStack, Image } from "@chakra-ui/react";
+import { Box, Button, Container, Text, VStack, Image } from "@chakra-ui/react";
 import { FaHeart } from "react-icons/fa";
 
 export default function Footer() {
