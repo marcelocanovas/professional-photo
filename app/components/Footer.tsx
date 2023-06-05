@@ -1,7 +1,7 @@
 "use client";
 
 import { Button, Container, Text, VStack, Image } from "@chakra-ui/react";
-import { FaGithub } from "react-icons/fa";
+import { FaHeart } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -13,7 +13,7 @@ export default function Footer() {
           href={"https://vendah.com.br"}
           target={"_blank"}
         >
-        {"Feito por Vendah"}
+        {"Feito com <FaHeart /> pela Vendah"}
         </Text>
   </VStack>
 </Container>
