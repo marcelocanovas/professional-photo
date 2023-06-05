@@ -13,7 +13,7 @@ export default function Footer() {
           href={"https://vendah.com.br"}
           target={"_blank"}
         >
-        {"Feito com <FaHeart /> pela Vendah"}
+          Feito com <Box as="span" mx={1}><FaHeart /></Box> pela Vendah
         </Text>
   </VStack>
 </Container>
