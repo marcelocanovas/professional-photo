@@ -5,13 +5,13 @@ export const runtime = "edge";
 async function createFormData(image: File, prompt: string) {
   const formData = new FormData();
   formData.append("files", image);
-  formData.append("prompt", prompt || "A hand-drawn sketch");
+  formData.append("prompt", prompt || "A professional 8k image for Linkedin");
   formData.append(
     "negativePrompt",
-    "watermark, blurry, low-res, low contrast, desaturated"
+    "out of frame, lowres, text, error, cropped, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, out of frame, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck, username, watermark, signature"
   );
   formData.append("mode", "canny");
-  formData.append("numberOfImages", "4");
+  formData.append("numberOfImages", "2");
 
   return formData;
 }
