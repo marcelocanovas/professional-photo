@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../types/remix.type.ts"],
+  "sourcesContent": ["export interface RemixImage {\n  id: string;\n  uri: string;\n  createdAt: string;\n}\n\nexport interface RemixResponse {\n  createdAt: string;\n  id: string;\n  prompt: string;\n  sourceImageUri: string;\n  status: \"queued\" | \"processing\" | \"finished\" | \"failed\";\n  steps: number;\n  projectId: string;\n  seed: number;\n  images: RemixImage[];\n}\n"],
+  "mappings": ";;;;;;;;;;;;;;AAAA;AAAA;",
+  "names": []
+}

@@ -5,8 +5,8 @@ import { Providers } from "./providers";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Remix My Face | powered by Leap",
-  description: "Take a selfie, get a custom avatar.",
+  title: "Vendah | Sua foto profissional",
+  description: "Transforme sua foto comum em uma foto vendedora",
 };
 
 export default function RootLayout({

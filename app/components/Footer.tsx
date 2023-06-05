@@ -9,20 +9,11 @@ export default function Footer() {
       <VStack bg={"blackAlpha.100"} p={8} w={"full"} rounded={"md"} mb={8}>
         <Text
           as="a"
-          href={"https://tryleap.ai/?ref=remixmyface.com"}
+          href={"https://vendah.com.br"}
           target={"_blank"}
         >
-          {"Made with Leap API"}
+          {"Feito por Vendah"}
         </Text>
-        <Button
-          as="a"
-          href={"https://github.com/leap-api/remix-my-face"}
-          target={"_blank"}
-          size={"xs"}
-          leftIcon={<FaGithub />}
-        >
-          Fork on GitHub
-        </Button>
       </VStack>
     </Container>
   );

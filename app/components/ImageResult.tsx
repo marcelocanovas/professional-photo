@@ -68,14 +68,14 @@ export default function ImageResult({ src }: ImageResultProps) {
       <Modal isOpen={isOpen} onClose={onClose} size="xl">
         <ModalOverlay />
         <ModalContent>
-          <ModalHeader>Download & Share on Social Media</ModalHeader>
+          <ModalHeader>Baixe sua foto e use nas suas redes sociais</ModalHeader>
           <ModalCloseButton />
           <ModalBody>
             <VStack gap={4} py={4}>
               {/* Full-size image */}
               <Image src={src} alt={src} objectFit="contain" />
               {/* Share prompt */}
-              <Text>Share this website with your friends!</Text>
+              <Text>Compartilhe esse site com seus contatos!</Text>
               {/* Container for buttons */}
               <HStack>
                 {/* Download button */}
