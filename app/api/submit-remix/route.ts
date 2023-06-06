@@ -27,7 +27,7 @@ async function createFormData(image: File, prompt: string) {
 // Realistic Vision v2.0	eab32df0-de26-4b83-a908-a83f3015e971	A red bird
 
 async function postImageToApi(formData: FormData) {
-  const modelId = "eab32df0-de26-4b83-a908-a83f3015e971	";
+  const modelId = "ee88d150-4259-4b77-9d0f-090abe29f650";
   const apiUrl = `https://api.tryleap.ai/api/v1/images/models/${modelId}/remix`;
 
   const response = await fetch(apiUrl, {
